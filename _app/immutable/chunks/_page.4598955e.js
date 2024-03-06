@@ -1,0 +1,1 @@
+const o=!0;async function a({fetch:e}){const{jobs:r,currencyRate:n}=await e("/salary-anal.json").then(t=>t.json());return{jobs:r,currencyRate:n}}const s=Object.freeze(Object.defineProperty({__proto__:null,load:a,prerender:!0},Symbol.toStringTag,{value:"Module"}));export{s as _,a as l,o as p};
